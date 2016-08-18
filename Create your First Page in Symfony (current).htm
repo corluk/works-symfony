@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8"><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/ld.js" async="" type="text/javascript"></script><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/dc.js" async="" type="text/javascript"></script><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/b10765e88c" type="text/javascript"></script><script id="sln_bar" src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sln.js"></script><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/nr-963.js"></script><script data-owner="criteo-tag" src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/event.js" type="text/javascript" async="true"></script><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/fbevents.js" async=""></script><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/ga.js" async="" type="text/javascript"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+        <meta name="robots" content="index, follow, all">
+        <meta name="Author" content="SensioLabs">
+                <meta name="Keywords" content="symfony3, symfony2, symfony, project, framework, php, php5, php7, open-source, components, symphony, symfony framework, symfony tutorial">
+
+                <link rel="search" type="application/opensearchdescription+xml" href="http://symfony.com/opensearch/documentation.xml" title="Symfony2 documentation">
+
+        <link href="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sln.css" rel="stylesheet"><title>Create your First Page in Symfony (current)</title>
+
+                    <link rel="stylesheet" href="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/all.css">
+        
+        
+                    <script type="text/javascript" src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/all.js"></script>
+        
+        <!--[if lt IE 9]>
+          <script src="/js/common/html5.js" type="text/javascript"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-89393-6']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+                n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '930183467075199');
+            fbq('track', "PageView");</script>
+        <noscript><img height="1" width="1" style="display:none"
+                       src="https://www.facebook.com/tr?id=930183467075199&ev=PageView&noscript=1"
+                    /></noscript>
+        <!-- End Facebook Pixel Code -->
+
+        
+                <link rel="apple-touch-icon" type="image/png" href="http://symfony.com/apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" type="image/png" href="http://symfony.com/apple-touch-icon.png">
+        <meta name="apple-mobile-web-app-title" content="Symfony">
+
+                <meta name="twitter:site" content="@symfony">
+
+                <meta property="fb:app_id" content="211720082183067">
+
+                <meta property="og:type" content="website">
+        <meta property="og:title" content="Create your First Page in Symfony (current)">
+        <meta property="og:image" content="http://symfony.com/images/v5/opengraph/symfony_logo.png?v=4">
+
+                <meta name="msapplication-TileColor" content="#000000">
+        <meta name="application-name" content="Symfony">
+        <meta name="msapplication-tooltip" content="Official Symfony website">
+
+        <link rel="canonical" href="http://symfony.com/doc/current/page_creation.html">    </head>
+
+    <body style="padding-top: 40px;" id="" class="doc doc_article">
+        <div id="sln"><div class="sln-bar"><div class="sln-bar-inner"><div class="sln-network"><a href="#" class="sln-hidden-phone">SensioLabs<span>World</span></a><a href="#" class="sln-visible-phone">SL<span>W</span></a></div> <div class="sln-ad"><a href="https://blackfire.io/" data-ga="blackfire" class="sln-visible-phone"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/1c5498dd-0649-4d42-af4b-1de957825f62.png">Blackfire.io</a><a href="https://blackfire.io/" data-ga="blackfire" class="sln-visible-tablet"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/1c5498dd-0649-4d42-af4b-1de957825f62.png">Blackfire.io: Fire up your PHP apps performance</a><a href="https://blackfire.io/" data-ga="blackfire" class="sln-visible-desktop"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/1c5498dd-0649-4d42-af4b-1de957825f62.png">Blackfire.io: Fire up your PHP apps performance</a></div> <div class="sln-search"><div class="sln-search-deactivated"><a href="#"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/search.png"></a></div><div class="sln-search-activated sln-hidden"><a href="#"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/search-alt.png"></a><form method="GET" action="/search"><input name="q" id="sln-autocomplete" placeholder="Search" type="text"></form></div></div> <div class="sln-user"> <a href="http://symfony.com/session/new?target=http://symfony.com/doc/current/page_creation.html" class="sln-connect"> Connect </a> </div>
+    </div>
+    <div class="sln-dropdown-network sln-dropdown sln-hidden"><div class="sln-container"><div class="sln-row"><div class="sln-span6"><div class="sln-row"><div class="sln-span3"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sensiolabs.png" alt="SensioLabs"><p>Since
+ 1998, SensioLabs has been promoting the Open-Source software movement 
+by providing quality and performant web application development 
+products, trainings,  and consulting. SensioLabs also supports multiple 
+important Open-Source projects. <br><a data-ga="sln_learn_more" href="http://sensiolabs.com/en">Learn more</a></p><div><a data-ga="sln_sl_international" href="http://sensiolabs.com/en">International</a></div><ul class="sln-websites"><li>Local:</li><li class="first"><a data-ga="sln_sl_FR" href="http://sensiolabs.com/fr">France</a></li><li><a data-ga="sln_sl_DE" href="http://sensiolabs.de/">Deutschland</a></li><li><a data-ga="sln_sl_UK" href="http://sensiolabs.co.uk/">UK</a></li></ul></div><div class="sln-span3 sln-ads"><h2>In the Spotlight</h2><div><a data-ga="sln_insight_thumb" href="https://insight.sensiolabs.com/"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sensiolabsinsight.png" alt="SensioLabsInsight"></a></div><div><a data-ga="sln_blackfire_thumb" href="https://blackfire.io/"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/blackfire.png" alt="Blackfire"></a></div></div></div></div><div class="sln-span6 sln-products-listing sln-right-box"><div class="sln-row"><div class="sln-span3"><h2>Open Source</h2><ul><li><a data-ga="sln_sf" href="http://symfony.com/">Symfony - Web framework</a></li><li><a data-ga="sln_twig" href="http://twig.sensiolabs.org/">Twig - Templating</a></li><li><a data-ga="sln_silex" href="http://silex.sensiolabs.org/">Silex - Micro-framework</a></li><li><a data-ga="sln_swift" href="http://www.swiftmailer.org/">Swift Mailer - E-Mailing</a></li></ul></div><div class="sln-span3"><h2>Products</h2><ul><li><a data-ga="sln_insight" href="https://insight.sensiolabs.com/">Insight: PHP Quality</a></li><li><a data-ga="sln_profiler" href="https://blackfire.io/">Blackfire: Web App performance</a></li><li><a data-ga="sln_security_checker" href="https://security.sensiolabs.org/">Security checker</a></li></ul></div></div><div class="sln-row"><div class="sln-span3"><h2>Solutions &amp; Services</h2><ul><li><a data-ga="sln_training" href="https://training.sensiolabs.com/">Training</a></li><li><a data-ga="sln_certification" href="https://sensiolabs.com/certification">Certification</a></li><li><a data-ga="sln_services" href="https://sensiolabs.com/solutions">Technical Solutions</a></li><li><a data-ga="sln_support" href="https://sensiolabs.com/support">Support</a></li><li><a data-ga="sln_experts" href="http://expert.sensiolabs.com/">Experts</a></li></ul></div><div class="sln-span3"><h2>Community</h2><ul><li><a data-ga="sln_connect" href="https://connect.sensiolabs.com/">Community</a></li><li><a data-ga="sln_live" href="http://live.symfony.com/">Conferences</a></li><li><a data-ga="sln_youtube" href="https://www.youtube.com/user/SensioLabs">Videos</a></li><li><a data-ga="sln_partners" href="https://sensiolabs.com/en/partnership/overview.html">Partners</a></li><li><a data-ga="sln_job_board" href="http://jobs.sensiolabs.com/">Job Board</a></li></ul></div></div></div><div class="sln-right-box sln-our-blogs"><div class="sln-row "><div class="sln-span5"><h2>Our Blogs</h2>&nbsp;&nbsp;&nbsp;
+                        <a href="http://symfony.com/blog/">Symfony</a>,
+                        <a href="http://blog.sensiolabs.com/">SensioLabs</a>,
+                        <a href="http://blog.insight.sensiolabs.com/">Insight</a>,
+                        and <a href="http://blog.blackfire.io/">Blackfire</a>.
+                    </div></div></div></div></div></div>
+    
+</div></div>
+
+                <div id="content_wrapper">
+
+                                    <header>
+                <div id="header-top" class="hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div id="header-logo" class="col-sm-5 col-md-6">
+                                                                    <a href="http://symfony.com/">
+                                        <img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/header-logo.svg" alt="Symfony" class="img-responsive">
+                                    </a>
+                                                            </div>
+                            <div id="header-download" class="col-sm-7 col-md-6">
+                                <a href="http://sensiolabs.com/" class="header-sensiolabs-product" title="SensioLabs, PHP services and software solutions for enterprise and community.">
+                                    <img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/slproduct.svg" alt="a SensioLabs product">
+                                </a>
+                                <a href="http://symfony.com/download" class="btn btn-primary btn-download">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="affix" id="header-bottom" data-spy="affix" data-offset-top="123">
+                    <div class="container">
+                        <div class="visible-xs">
+                            <div id="header-logo-responsive">
+                                                                    <a href="http://symfony.com/">
+                                        <img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sf-white.svg" alt="Symfony" class="img-responsive">
+                                    </a>
+                                                            </div>
+
+                            <a href="" id="menuToggle" class="icon-responsive-menu"></a>
+                        </div>
+
+                        <a class="hidden-xs" href="http://symfony.com/">
+                            <img id="header-logo-sticky" src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sf-positive.svg">
+                        </a>
+
+                        <ul id="header-main-menu" class="row">
+                            
+    <li>
+                            
+        <a href="http://symfony.com/what-is-symfony">
+            What is Symfony?
+        </a>
+
+                    </li>
+    <li class="selected">
+                            
+        <a href="http://symfony.com/doc/current/index.html">
+            Documentation
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/community">
+            Community
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/showcase">
+            Showcase
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/marketplace">
+            Marketplace
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/jobs">
+            Jobs
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/services">
+            Business Solutions
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/blog/">
+            News
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/search">
+            Search
+        </a>
+
+                    </li>
+                        </ul>
+
+                        <div id="header-download-sticky" class="hidden-xs">
+                            <a href="http://symfony.com/download">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+                        <div class="container">
+                                <div id="page-content">
+                    <div class="row">
+                        <div id="sidebar" class="col-sm-3">
+                            <div id="sidebar-content">
+                                                                    
+<div id="doc-global-nav">
+    <div class="panel">
+        <div class="panel-heading">
+            <h4><a data-toggle="collapse" href="#doc-menu-1" class="">Getting Started <i class="chevron chevron-right"></i></a></h4>
+        </div>
+        <div id="doc-menu-1" class="panel-collapse collapse in">
+            <div class="panel-body">
+                
+
+    <ul class="unstyled">
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/setup.html">
+                    Setup
+                </a>
+            </li>
+                    <li class="selected">
+                                <a class="" href="http://symfony.com/doc/3.1/page_creation.html">
+                    Creating Pages
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/routing.html">
+                    Routing
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/controller.html">
+                    Controllers
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/templating.html">
+                    Templates
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/configuration.html">
+                    Configuration
+                </a>
+            </li>
+            </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h4><a data-toggle="collapse" href="#doc-menu-2" class="collapsed">Guides <i class="chevron chevron-right"></i></a></h4>
+        </div>
+        <div id="doc-menu-2" class="panel-collapse collapse ">
+            <div class="panel-body">
+                
+
+    <ul class="">
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/3.1/assetic.html">
+                    Assetic
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/bundles.html">
+                    Bundles
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/3.1/console.html">
+                    Console
+                </a>
+            </li>
+                    <li class="">
+                                <a class="very-important" href="http://symfony.com/doc/3.1/doctrine.html">
+                    Databases (Doctrine)
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/debug.html">
+                    Debug
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/deployment.html">
+                    Deployment
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/3.1/email.html">
+                    Email
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/event_dispatcher.html">
+                    Event Dispatcher
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/expressions.html">
+                    Expressions
+                </a>
+            </li>
+                    <li class="">
+                                <a class="very-important" href="http://symfony.com/doc/3.1/forms.html">
+                    Forms
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/frontend.html">
+                    Front-end
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/http_cache.html">
+                    HTTP Cache
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/logging.html">
+                    Logging
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/performance.html">
+                    Performance
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/profiler.html">
+                    Profiler
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/request.html">
+                    Request
+                </a>
+            </li>
+                    <li class="">
+                                <a class="important" href="http://symfony.com/doc/3.1/security.html">
+                    Security
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/serializer.html">
+                    Serializer
+                </a>
+            </li>
+                    <li class="">
+                                <a class="very-important" href="http://symfony.com/doc/3.1/service_container.html">
+                    Service Container
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/session.html">
+                    Sessions
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/testing.html">
+                    Testing
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/translation.html">
+                    Translation (i18n)
+                </a>
+            </li>
+                    <li class="">
+                                <a class="" href="http://symfony.com/doc/3.1/validation.html">
+                    Validation
+                </a>
+            </li>
+            </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h4><a href="http://symfony.com/doc/3.1/components.html">Components</a></h4>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h4><a href="https://training.sensiolabs.com/en/courses?q=symfony">Training</a></h4>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h4><a href="https://sensiolabs.com/certification">Certification</a></h4>
+        </div>
+    </div>
+</div>
+
+
+                                                            <div class="toc">
+                <h4>Table of Contents</h4>
+                <div class="toc-content">
+                    <ul>
+<li><a class="reference internal" href="#">Create your First Page in Symfony</a><ul>
+<li><a class="reference internal" href="#creating-a-page-route-and-controller">Creating a Page: Route and Controller</a></li>
+<li><a class="reference internal" href="#the-web-debug-toolbar-debugging-dream">The Web Debug Toolbar: Debugging Dream</a></li>
+<li><a class="reference internal" href="#rendering-a-template-with-the-service-container">Rendering a Template (with the Service Container)</a></li>
+<li><a class="reference internal" href="#checking-out-the-project-structure">Checking out the Project Structure</a></li>
+<li><a class="reference internal" href="#bundles-configuration">Bundles &amp; Configuration</a></li>
+<li><a class="reference internal" href="#what-s-next">What's Next?</a></li>
+<li><a class="reference internal" href="#go-deeper-with-http-framework-fundamentals">Go Deeper with HTTP &amp; Framework Fundamentals</a><ul>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                </div>
+            </div>
+            
+                                    <div class="ads">
+    <div id="ad_jobs" data-url="http://jobs.sensiolabs.com/api/random"></div>
+            <div class="ad" id="ad_trainings_1">
+            <h3><a href="https://training.sensiolabs.com/en/courses?q=symfony">Master Symfony fundamentals</a></h3>
+            <div>Be trained by SensioLabs experts (2 to 6 day sessions -- French or English).</div>
+            <div><cite>training.sensiolabs.com</cite></div>
+        </div>
+            <div class="ad" id="ad_support_1">
+            <h3><a href="http://sensiolabs.com/en/support/sensiolabs_support.html">Discover the SensioLabs Support</a></h3>
+            <div>Access to the SensioLabs Competency Center for an exclusive and tailor-made support on Symfony</div>
+            <div><cite>sensiolabs.com</cite></div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+                    $("#ad_trainings_1").click(function () {
+                _gaq.push(['_trackEvent', 'Ads', 'Ads', 'trainings_1']);
+            });
+                    $("#ad_support_1").click(function () {
+                _gaq.push(['_trackEvent', 'Ads', 'Ads', 'support_1']);
+            });
+            });
+</script>
+
+                                                                            <div class="ads">
+                                            <a id="ad-blackfire" href="https://blackfire.io/24-days"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/blackfire-profiler.png" class="img-responsive" alt="Blackfire Profiler Fire up your PHP Apps Performance"></a>
+                                            <a id="ad-insight" href="https://insight.sensiolabs.com/"><img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sensiolabsinsight_002.png" class="img-responsive" alt="PHP Project Quality Done Right"></a>
+                                        </div>
+                                                                                                </div>
+                        </div>
+                        <div id="main" class="col-sm-9">
+                                                                                                <ol class="breadcrumb">
+                                        <li><a href="http://symfony.com/">Home</a></li>
+                                                                        
+                                                                        
+                            <li><a href="http://symfony.com/doc/current/index.html">Documentation</a></li>
+                                                                        
+                                                                        
+                                <li class="active">Create your First Page in Symfony</li>
+                                                                                                                        </ol>
+                                
+                                                                                                            <h1 class="content_title">
+                                                                        
+                                                    Create your First 
+Page in Symfony                                                         
+                       </h1>
+                                                                    
+                                    
+    
+    
+    <div class="page">
+        
+        <div id="doc-content-tools">
+                            <div class="doc-switcher">
+    <div class="doc-switcher-wrapper">
+        <div class="version">
+            3.1 version
+            <i class="arrow-down"></i>        </div>
+
+                    <div class="all-versions">
+                <ul>
+                                            <li>
+                            <a href="http://symfony.com/doc/2.7/page_creation.html">
+                                                                2.7
+                                                            </a>
+                        </li>
+                                            <li>
+                            <a href="http://symfony.com/doc/2.8/page_creation.html">
+                                                                2.8
+                                                            </a>
+                        </li>
+                                            <li>
+                            <a href="http://symfony.com/doc/3.0/page_creation.html">
+                                                                3.0
+                                                            </a>
+                        </li>
+                                            <li>
+                            <a href="http://symfony.com/doc/master/page_creation.html">
+                                3.2 /                                 master
+                                                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            </div>
+</div>
+
+            
+                            <div id="doc-edit">
+                    <a href="https://github.com/symfony/symfony-docs/edit/3.1/page_creation.rst">edit this page</a>
+                </div>
+                    </div>
+
+                <div class="section" id="create-your-first-page-in-symfony">
+<span id="creating-pages-in-symfony"></span><span id="creating-pages-in-symfony2"></span><span id="index-0"></span><h1>Create your First Page in Symfony<a class="headerlink" href="#create-your-first-page-in-symfony" title="Permalink to this headline">¶</a></h1>
+<p>Creating a new page - whether it's an HTML page or a JSON endpoint - is a
+simple two-step process:</p>
+<ol class="arabic simple">
+<li><strong>Create a route</strong>: A route is the URL (e.g. <code class="notranslate">/about</code>) to your page and
+points to a controller;</li>
+<li><strong>Create a controller</strong>: A controller is the PHP function you write that
+builds the page. You take the incoming request information and use it to
+create a Symfony <code class="notranslate">Response</code> object, which can hold HTML content, a JSON
+string or even a binary file like an image or PDF.</li>
+</ol>
+<div class="admonition-wrapper">
+<div class="seealso"></div><div class="admonition admonition-seealso">Do you prefer video tutorials? Check out the <a class="reference external" href="http://knpuniversity.com/screencast/symfony/first-page">Joyful Development with Symfony</a>
+screencast series from KnpUniversity.</div></div>
+<div class="admonition-wrapper">
+<div class="seealso"></div><div class="admonition admonition-seealso">Symfony <em>embraces</em> the HTTP Request-Response lifecycle. To find out more,
+see <a class="reference internal" href="http://symfony.com/doc/current/introduction/http_fundamentals.html"><em>Symfony and HTTP Fundamentals</em></a>.</div></div>
+<div class="section" id="creating-a-page-route-and-controller">
+<span id="index-1"></span><h2>Creating a Page: Route and Controller<a class="headerlink" href="#creating-a-page-route-and-controller" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-wrapper">
+<div class="tip"></div><div class="admonition admonition-tip"><p class="first admonition-title">Tip</p>
+<p class="last">Before continuing, make sure you've read the <a class="reference internal" href="http://symfony.com/doc/current/setup.html"><em>Setup</em></a>
+chapter and can access your new Symfony app in the browser.</p>
+</div></div>
+<p>Suppose you want to create a page - <code class="notranslate">/lucky/number</code> - that generates a lucky (well,
+random) number and prints it. To do that, create a "Controller class" and a
+"controller" method inside of it that will be executed when someone goes to
+<code class="notranslate">/lucky/number</code>:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1">// src/AppBundle/Controller/LuckyController.php</span>
+<span class="k">namespace</span> <span class="nx">AppBundle\Controller</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">Sensio\Bundle\FrameworkExtraBundle\Configuration\Route</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Symfony\Component\HttpFoundation\Response</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">LuckyController</span>
+<span class="p">{</span>
+    <span class="sd">/**</span>
+<span class="sd">     * @Route("/lucky/number")</span>
+<span class="sd">     */</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">numberAction</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="nv">$number</span> <span class="o">=</span> <span class="nb">mt_rand</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">);</span>
+
+        <span class="k">return</span> <span class="k">new</span> <span class="nx">Response</span><span class="p">(</span>
+            <span class="s1">'&lt;html&gt;&lt;body&gt;Lucky number: '</span><span class="o">.</span><span class="nv">$number</span><span class="o">.</span><span class="s1">'&lt;/body&gt;&lt;/html&gt;'</span>
+        <span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>Before diving into this, test it out! If you are using PHP's internal web server
+go to:</p>
+<blockquote>
+<div><a class="reference external" href="http://localhost:8000/app_dev.php/lucky/number">http://localhost:8000/app_dev.php/lucky/number</a></div></blockquote>
+<div class="admonition-wrapper">
+<div class="tip"></div><div class="admonition admonition-tip"><p class="first admonition-title">Tip</p>
+<p class="last">If you're using the built-in PHP web-server, you can omit the <code class="notranslate">app_dev.php</code>
+part of the URL.</p>
+</div></div>
+<p>If you see a lucky number being printed back to you, congratulations! But before
+you run off to play the lottery, check out how this works. Remember the two steps
+to creating a page?</p>
+<ol class="arabic simple">
+<li><em>Create a route</em>: The <code class="notranslate">@Route</code> above <code class="notranslate">numberAction()</code> is the <em>route</em>: it
+defines the URL pattern for this page. You'll learn more about <a class="reference internal" href="http://symfony.com/doc/current/routing.html"><em>routing</em></a>
+in its own section, including how to make <em>variable</em> URLs;</li>
+<li><em>Create a controller</em>: The method below the route - <code class="notranslate">numberAction()</code> - is called
+the <em>controller</em>: this is a function where <em>you</em> build the page and ultimately
+return a <code class="notranslate">Response</code> object. You'll learn more about <a class="reference internal" href="http://symfony.com/doc/current/controller.html"><em>controllers</em></a>
+in their own section, including how to return JSON responses;</li>
+</ol>
+</div>
+<div class="section" id="the-web-debug-toolbar-debugging-dream">
+<h2>The Web Debug Toolbar: Debugging Dream<a class="headerlink" href="#the-web-debug-toolbar-debugging-dream" title="Permalink to this headline">¶</a></h2>
+<p>If your page is working, then you should <em>also</em> see a bar along the bottom of your
+browser. This is called the Web Debug Toolbar: and it's your debugging best friend.
+You'll learn more about all the information it holds along the way, but feel free
+to experiment: hover over and click the different icons to get information about
+routing, performance, logging and more.</p>
+</div>
+<div class="section" id="rendering-a-template-with-the-service-container">
+<h2>Rendering a Template (with the Service Container)<a class="headerlink" href="#rendering-a-template-with-the-service-container" title="Permalink to this headline">¶</a></h2>
+<p>If you're returning HTML from your controller, you'll probably want to render
+a template. Fortunately, Symfony comes with <a class="reference external" href="http://twig.sensiolabs.org/">Twig</a>: a templating language that's
+easy, powerful and actually quite fun.</p>
+<p>First, make sure that <code class="notranslate">LuckyController</code> extends Symfony's base
+<code class="notranslate"><a class="reference external" href="http://api.symfony.com/3.1/Symfony/Bundle/FrameworkBundle/Controller/Controller.html" title="Symfony\Bundle\FrameworkBundle\Controller\Controller">Controller</a></code> class:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1">// src/AppBundle/Controller/LuckyController.php</span>
+
+<span class="c1">// ...</span>
+<span class="c1">// --&gt; add this new use statement</span>
+<span class="k">use</span> <span class="nx">Symfony\Bundle\FrameworkBundle\Controller\Controller</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">LuckyController</span> <span class="k">extends</span> <span class="nx">Controller</span>
+<span class="p">{</span>
+    <span class="c1">// ...</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>Now, use the handy <code class="notranslate">render()</code> function to render a template. Pass it our <code class="notranslate">number</code>
+variable so we can render that:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1">// src/AppBundle/Controller/LuckyController.php</span>
+
+<span class="c1">// ...</span>
+<span class="k">class</span> <span class="nc">LuckyController</span> <span class="k">extends</span> <span class="nx">Controller</span>
+<span class="p">{</span>
+    <span class="sd">/**</span>
+<span class="sd">     * @Route("/lucky/number")</span>
+<span class="sd">     */</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">numberAction</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="nv">$number</span> <span class="o">=</span> <span class="nb">mt_rand</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">);</span>
+
+        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">'lucky/number.html.twig'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
+            <span class="s1">'number'</span> <span class="o">=&gt;</span> <span class="nv">$number</span>
+        <span class="p">));</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>Finally, template files should live in the <code class="notranslate">app/Resources/view</code> directory. Create
+a new <code class="notranslate">app/Resources/views/lucky</code> directory with a new <code class="notranslate">number.html.twig</code> file
+inside:</p>
+<div class="literal-block notranslate"><div class="highlight-twig"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">{# app/Resources/views/lucky/number.html.twig #}</span><span class="x"></span>
+
+<span class="x">&lt;h1&gt;Your lucky number is </span><span class="cp">{{</span> <span class="nv">number</span> <span class="cp">}}</span><span class="x">&lt;/h1&gt;</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>The <code class="notranslate">{{ number }}</code> syntax is used to <em>print</em> variables in Twig. Refresh your browser
+to get your <em>new</em> lucky number!</p>
+<blockquote>
+<div><a class="reference external" href="http://localhost:8000/lucky/number">http://localhost:8000/lucky/number</a></div></blockquote>
+<p>In the <a class="reference internal" href="http://symfony.com/doc/current/templating.html"><em>Creating and Using Templates</em></a> chapter, you'll learn all about Twig: how to loop, render
+other templates and leverage its powerful layout inheritance system.</p>
+</div>
+<div class="section" id="checking-out-the-project-structure">
+<h2>Checking out the Project Structure<a class="headerlink" href="#checking-out-the-project-structure" title="Permalink to this headline">¶</a></h2>
+<p>Great news! You've already worked inside the two most important directories in your
+project:</p>
+<dl class="docutils">
+<dt><code class="notranslate">app/</code></dt>
+<dd>Contains things like configuration and templates. Basically, anything
+that is <em>not</em> PHP code goes here.</dd>
+<dt><code class="notranslate">src/</code></dt>
+<dd>Your PHP code lives here.</dd>
+</dl>
+<p>99% of the time, you'll be working in <code class="notranslate">src/</code> (PHP files) or <code class="notranslate">app/</code> (everything
+else). As you keep reading, you'll learn what can be done inside each of these.</p>
+<p>So what about the other directories in the project?</p>
+<dl class="docutils">
+<dt><code class="notranslate">bin/</code></dt>
+<dd>The famous <code class="notranslate">bin/console</code> file lives here (and other, less important
+executable files).</dd>
+<dt><code class="notranslate">tests/</code></dt>
+<dd>The automated tests (e.g. Unit tests) for your application live here.</dd>
+<dt><code class="notranslate">var/</code></dt>
+<dd>This is where automatically-created files are stored, like cache files
+(<code class="notranslate">var/cache/</code>) and logs (<code class="notranslate">var/logs/</code>).</dd>
+<dt><code class="notranslate">vendor/</code></dt>
+<dd>Third-party (i.e. "vendor") libraries live here! These are downloaded via the <a class="reference external" href="https://getcomposer.org/">Composer</a>
+package manager.</dd>
+<dt><code class="notranslate">web/</code></dt>
+<dd>This is the document root for your project: put any publicly accessible files
+here (e.g. CSS, JS and images).</dd>
+</dl>
+</div>
+<div class="section" id="bundles-configuration">
+<h2>Bundles &amp; Configuration<a class="headerlink" href="#bundles-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Your Symfony application comes pre-installed with a collection of <em>bundles</em>, like
+<code class="notranslate">FrameworkBundle</code> and <code class="notranslate">TwigBundle</code>. Bundles are similar to the idea of a <em>plugin</em>,
+but with one important difference: <em>all</em> functionality in a Symfony application comes
+from a bundle.</p>
+<p>Bundles are registered in your <code class="notranslate">app/AppKernel.php</code> file (a rare PHP file in the
+<code class="notranslate">app/</code> directory) and each gives you more <em>tools</em>, sometimes called <em>services</em>:</p>
+<div class="literal-block notranslate"><div class="highlight-php"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">class</span> <span class="nc">AppKernel</span> <span class="k">extends</span> <span class="nx">Kernel</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">registerBundles</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="nv">$bundles</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+            <span class="k">new</span> <span class="nx">Symfony\Bundle\FrameworkBundle\FrameworkBundle</span><span class="p">(),</span>
+            <span class="k">new</span> <span class="nx">Symfony\Bundle\TwigBundle\TwigBundle</span><span class="p">(),</span>
+            <span class="c1">// ...</span>
+        <span class="p">);</span>
+        <span class="c1">// ...</span>
+
+        <span class="k">return</span> <span class="nv">$bundles</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// ...</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table></div></div>
+<p>For example, <code class="notranslate">TwigBundle</code> is responsible for adding the Twig tool to your app!</p>
+<p>Eventually, you'll download and add more third-party bundles to your app in order
+to get even more tools. Imagine a bundle that helps you create paginated lists.
+That exists!</p>
+<p>You can control how your bundles behave via the <code class="notranslate">app/config/config.yml</code> file.
+That file - and other details like environments &amp; parameters - are discussed in
+the <a class="reference internal" href="http://symfony.com/doc/current/configuration.html"><em>Configuring Symfony (and Environments)</em></a> chapter.</p>
+</div>
+<div class="section" id="what-s-next">
+<h2>What's Next?<a class="headerlink" href="#what-s-next" title="Permalink to this headline">¶</a></h2>
+<p>Congrats! You're already starting to master Symfony and learn a whole new
+way of building beautiful, functional, fast and maintainable apps.</p>
+<p>Ok, time to finish mastering the fundamentals by reading these chapters:</p>
+<ul class="simple">
+<li><a class="reference internal" href="http://symfony.com/doc/current/routing.html"><em>Routing</em></a></li>
+<li><a class="reference internal" href="http://symfony.com/doc/current/controller.html"><em>Controller</em></a></li>
+<li><a class="reference internal" href="http://symfony.com/doc/current/templating.html"><em>Creating and Using Templates</em></a></li>
+</ul>
+<p>Then, learn about other important topics like the
+<a class="reference internal" href="http://symfony.com/doc/current/service_container.html"><em>service container</em></a>,
+the <a class="reference internal" href="http://symfony.com/doc/current/forms.html"><em>form system</em></a>, using <a class="reference internal" href="http://symfony.com/doc/current/doctrine.html"><em>Doctrine</em></a>
+(if you need to query a database) and more!</p>
+<p>Have fun!</p>
+</div>
+<div class="section" id="go-deeper-with-http-framework-fundamentals">
+<h2>Go Deeper with HTTP &amp; Framework Fundamentals<a class="headerlink" href="#go-deeper-with-http-framework-fundamentals" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/current/introduction/from_flat_php_to_symfony2.html">Symfony versus Flat PHP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://symfony.com/doc/current/introduction/http_fundamentals.html">Symfony and HTTP Fundamentals</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+                <ul class="row pager">
+                            <li class="col-xs-6 previous">
+                    <a accesskey="P" title="Installing &amp;amp; Setting up the Symfony Framework" href="http://symfony.com/doc/current/setup.html">
+                        « Installing &amp; Setting up the Symfony Framework
+                    </a>
+                </li>
+            
+                            <li class="col-xs-6 next">
+                    <a accesskey="N" title="Routing" href="http://symfony.com/doc/current/routing.html">
+                        Routing »
+                    </a>
+                </li>
+                    </ul>
+    
+    <div id="license">
+    <p>
+        This work, including the code samples, is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0</a>
+        license.
+    </p>
+</div>
+
+
+                                                        </div>
+                    </div>
+                </div>
+                            </div>
+            
+                        
+<footer>
+    <div class="promos">
+        <div class="container">
+            <div class="row">
+                                <div class="col-sm-5 col-md-4">
+                    <h2 class="title_05">News from the Symfony blog</h2>
+
+<ul class="event_list">
+            <li>
+            <h3>
+                <a href="http://symfony.com/blog/new-symfony-core-team-member-grgoire-pineau">
+                    New Symfony Core Team Member: Grégoire Pineau
+                    <span class="place_date">August 15, 2016</span>
+                </a>
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="http://symfony.com/blog/a-week-of-symfony-502-8-14-august-2016">
+                    A week of symfony #502 (8-14 August 2016)
+                    <span class="place_date">August 14, 2016</span>
+                </a>
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="http://symfony.com/blog/we-re-sorry-to-announce-the-cancellation-of-the-symfonylive-chicago-2016">
+                    We're sorry to announce the cancellation of the SymfonyLive Chicago 2016
+                    <span class="place_date">August 09, 2016</span>
+                </a>
+            </h3>
+        </li>
+    </ul>
+
+<div class="read-more link_01">
+    <a href="http://symfony.com/blog/">Visit The Symfony Blog</a>
+</div>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <h2 class="title_05">In the news</h2>
+
+
+<div class="upcoming_event clear_fix">
+    <div>
+        <a href="https://sensiolabs.com/symfony-certification" target="_blank">
+            <img style="width: 100px" src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/certification-big.png" class="png_fix" alt="The Symfony Certification by SensioLabs">
+        </a>
+    </div>
+
+    <div style="margin-top: 13px">
+        <h3 style="font-size: 13px; font-family: 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif">Symfony 3 Certification now available in 4,000 centers around the world!</h3>
+        <div style="margin-top: 5px">
+            <a href="https://sensiolabs.com/en/symfony/certification/order" class="non_extensible_button button_01">    <span class="border_l png_fix">
+        <span class="border_r png_fix">
+            <span class="btn_bg png_fix">
+                GET CERTIFIED
+            </span>
+        </span>
+    </span>
+</a>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+
+                <div class="col-sm-3 col-md-4">
+                                            <h2>Upcoming training sessions</h2>
+                        <ul class="event_list">
+        <li>
+        <a href="http://training.sensiolabs.com/en/courses?q=SF3C2&amp;from=08/18/2016&amp;to=08/19/2016">
+            Mastering Symfony 3
+            <br>
+            <span class="place_date">Paris - 2016-08-18</span>
+        </a>
+    </li>
+        <li>
+        <a href="http://training.sensiolabs.com/en/courses?q=SF3C4&amp;from=08/22/2016&amp;to=08/25/2016">
+            Web Development with Symfony 3
+            <br>
+            <span class="place_date">Online America - 2016-08-22</span>
+        </a>
+    </li>
+        <li>
+        <a href="http://training.sensiolabs.com/en/courses?q=SF3C1&amp;from=08/22/2016&amp;to=08/23/2016">
+            Getting Started with Symfony 3
+            <br>
+            <span class="place_date">Online America - 2016-08-22</span>
+        </a>
+    </li>
+    </ul>
+
+                        <div class="link_01">
+                            <a href="https://training.sensiolabs.com/" class="png_fix">View all sessions</a>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sitemap">
+        <div class="container">
+            <h5>
+                <img src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/sf-white.svg" alt="Symfony">
+                is a trademark of Fabien Potencier. All rights reserved.
+            </h5>
+
+            <ul class="row sitemap-list list-unstyled l_tinynav1">
+                <li class="col-xs-4 col-md-2">
+                    <h6><a href="http://symfony.com/what-is-symfony">What is Symfony?</a></h6>
+                    <ul class="list_menu_footer list-unstyled">
+                        
+    <li>
+                            
+        <a href="http://symfony.com/at-a-glance">
+            Symfony at a Glance
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/components">
+            Symfony Components
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/projects">
+            Projects using Symfony
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/blog/category/case-studies">
+            Case Studies
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/roadmap">
+            Symfony Roadmap
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/doc/current/contributing/code/security.html">
+            Security Policy
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/logo">
+            Logo &amp; Screenshots
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/license">
+            Trademark &amp; Licenses
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/legacy">
+            symfony1 Legacy
+        </a>
+
+                    </li>
+
+                    </ul>
+                </li>
+
+                <li class="col-xs-4 col-md-2">
+                    <h6><a href="http://symfony.com/doc/current/index.html">Learn Symfony</a></h6>
+                    <ul class="list_menu_footer list-unstyled">
+                        
+
+    <li class="">
+        <a href="http://symfony.com/doc/3.1/book/index.html">Book</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/3.1/cookbook/index.html">Cookbook</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/3.1/components/index.html">Components</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/3.1/best_practices/index.html">Best Practices</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/bundles/">Bundles</a>
+    </li>
+    <li class="">
+        <a href="http://symfony.com/doc/3.1/reference/index.html">Reference</a>
+    </li>
+    <li class="">
+        <a href="https://training.sensiolabs.com/en/courses?q=symfony">Training</a>
+    </li>
+    <li class="">
+        <a href="https://sensiolabs.com/certification">Certification</a>
+    </li>
+
+                    </ul>
+                </li>
+
+                <li class="col-xs-4 col-md-2">
+                    <ul class="list-unstyled list_menu_footer">
+                        <li>
+                            <h6><a href="http://symfony.com/community">Community</a></h6>
+                            <ul class="list_menu_footer list-unstyled">
+                                
+    <li>
+                            
+        <a href="https://connect.sensiolabs.com/">
+            SensioLabs Connect
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/support">
+            Support
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/doc/current/contributing/index.html">
+            How to be Involved
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/stats/code">
+            Code Stats
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/stats/downloads">
+            Downloads Stats
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/contributors">
+            Contributors
+        </a>
+
+                    </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="col-xs-4 col-md-2">
+                    <ul class="list-unstyled list_menu_footer">
+                        <li>
+                            <h6><a href="http://symfony.com/blog/">Blog</a></h6>
+                            <ul class="list_menu_footer list-unstyled">
+                                
+    <li><a href="http://symfony.com/blog/category/a-week-of-symfony">A week of symfony</a></li>
+    <li><a href="http://symfony.com/blog/category/case-studies">Case studies</a></li>
+    <li><a href="http://symfony.com/blog/category/community">Community</a></li>
+    <li><a href="http://symfony.com/blog/category/documentation">Documentation</a></li>
+    <li><a href="http://symfony.com/blog/category/living-on-the-edge">Living on the edge</a></li>
+    <li><a href="http://symfony.com/blog/category/meet-the-bundle">Meet the Bundle</a></li>
+    <li><a href="http://symfony.com/blog/category/releases">Releases</a></li>
+    <li><a href="http://symfony.com/blog/category/security-advisories">Security Advisories</a></li>
+    <li><a href="http://symfony.com/blog/category/symfony-cmf">Symfony CMF</a></li>
+
+<li><a href="http://symfony.com/events/"><em>Community Events</em></a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="col-xs-4 col-md-2">
+                    <h6><a href="http://symfony.com/services">Services</a></h6>
+                    <ul class="list_menu_footer list-unstyled">
+                        <li><a href="http://symfony.com/services">Our services</a></li>
+<li><a href="https://training.sensiolabs.com/en">Train developers</a></li>
+<li><a href="http://symfony.com/services#before">Start a project</a></li>
+<li><a href="https://insight.sensiolabs.com/">Manage your project quality</a></li>
+<li><a href="https://blackfire.io/">Improve your project performance</a></li>
+<li><a href="http://symfony.com/services">Struggling with your project</a></li>
+<li><a href="http://sensiolabs.com/en/support/sensiolabs_support.html">Support</a></li>
+<li><a href="http://symfony.com/services">Contact us</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="col-xs-4 col-md-2">
+                    <h6><a href="http://symfony.com/about">About</a></h6>
+                    <ul class="list_menu_footer list-unstyled">
+                        
+    <li>
+                            
+        <a href="http://sensiolabs.com/recrutement/rejoignez_nous.html">
+            SensioLabs
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/contributors">
+            Contributors
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://sensiolabs.com/recrutement/rejoignez_nous.html">
+            Jobs
+        </a>
+
+                    </li>
+    <li>
+                            
+        <a href="http://symfony.com/support">
+            Support
+        </a>
+
+                    </li>
+
+                    </ul>
+                </li>
+            </ul><select class="tinynav tinynav1" id="tinynav1"><option value="/what-is-symfony">What is Symfony?</option><option value="/at-a-glance">&nbsp;
+            Symfony at a Glance
+        </option><option value="/components">&nbsp;
+            Symfony Components
+        </option><option value="/projects">&nbsp;
+            Projects using Symfony
+        </option><option value="/blog/category/case-studies">&nbsp;
+            Case Studies
+        </option><option value="/roadmap">&nbsp;
+            Symfony Roadmap
+        </option><option value="/doc/current/contributing/code/security.html">&nbsp;
+            Security Policy
+        </option><option value="/logo">&nbsp;
+            Logo &amp; Screenshots
+        </option><option value="/license">&nbsp;
+            Trademark &amp; Licenses
+        </option><option value="/legacy">&nbsp;
+            symfony1 Legacy
+        </option><option value="/doc/current/index.html">Learn Symfony</option><option value="/doc/3.1/book/index.html">&nbsp;Book</option><option value="/doc/3.1/cookbook/index.html">&nbsp;Cookbook</option><option value="/doc/3.1/components/index.html">&nbsp;Components</option><option value="/doc/3.1/best_practices/index.html">&nbsp;Best Practices</option><option value="/doc/bundles/">&nbsp;Bundles</option><option value="/doc/3.1/reference/index.html">&nbsp;Reference</option><option value="https://training.sensiolabs.com/en/courses?q=symfony">&nbsp;Training</option><option value="https://sensiolabs.com/certification">&nbsp;Certification</option><option value="/community">&nbsp;Community</option><option value="https://connect.sensiolabs.com/">&nbsp;&nbsp;
+            SensioLabs Connect
+        </option><option value="/support">&nbsp;&nbsp;
+            Support
+        </option><option value="/doc/current/contributing/index.html">&nbsp;&nbsp;
+            How to be Involved
+        </option><option value="/stats/code">&nbsp;&nbsp;
+            Code Stats
+        </option><option value="/stats/downloads">&nbsp;&nbsp;
+            Downloads Stats
+        </option><option value="/contributors">&nbsp;&nbsp;
+            Contributors
+        </option><option value="/blog/">&nbsp;Blog</option><option value="/blog/category/a-week-of-symfony">&nbsp;&nbsp;A week of symfony</option><option value="/blog/category/case-studies">&nbsp;&nbsp;Case studies</option><option value="/blog/category/community">&nbsp;&nbsp;Community</option><option value="/blog/category/documentation">&nbsp;&nbsp;Documentation</option><option value="/blog/category/living-on-the-edge">&nbsp;&nbsp;Living on the edge</option><option value="/blog/category/meet-the-bundle">&nbsp;&nbsp;Meet the Bundle</option><option value="/blog/category/releases">&nbsp;&nbsp;Releases</option><option value="/blog/category/security-advisories">&nbsp;&nbsp;Security Advisories</option><option value="/blog/category/symfony-cmf">&nbsp;&nbsp;Symfony CMF</option><option value="/events/">&nbsp;&nbsp;Community Events</option><option value="/services">Services</option><option value="/services">&nbsp;Our services</option><option value="https://training.sensiolabs.com/en">&nbsp;Train developers</option><option value="/services#before">&nbsp;Start a project</option><option value="https://insight.sensiolabs.com/">&nbsp;Manage your project quality</option><option value="https://blackfire.io/">&nbsp;Improve your project performance</option><option value="/services">&nbsp;Struggling with your project</option><option value="http://sensiolabs.com/en/support/sensiolabs_support.html">&nbsp;Support</option><option value="/services">&nbsp;Contact us</option><option value="/about">About</option><option value="http://sensiolabs.com/recrutement/rejoignez_nous.html">&nbsp;
+            SensioLabs
+        </option><option value="/contributors">&nbsp;
+            Contributors
+        </option><option value="http://sensiolabs.com/recrutement/rejoignez_nous.html">&nbsp;
+            Jobs
+        </option><option selected="selected" value="/support">&nbsp;
+            Support
+        </option></select>
+        </div>
+    </div>
+</footer>
+
+                    </div>
+        
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                // Set-up Insight and Blackfire ads tracking
+                $("#ad-blackfire").click(function () {
+                    _gaq.push(['_trackEvent', 'Ads', 'sidebar', 'blackfire']);
+                });
+                $("#ad-insight").click(function () {
+                    _gaq.push(['_trackEvent', 'Ads', 'sidebar', 'insight']);
+                });
+
+                // load SensioLabsConnect bar
+                (function(w, d, s) {
+                    function go() {
+                        var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+                            if (d.getElementById(id)) {return;}
+                            js = d.createElement(s); js.src = url; js.id = id;
+                            fjs.parentNode.insertBefore(js, fjs);
+                        };
+                        load('https://connect.sensiolabs.com/sln.js?customize_url=http://symfony.com/sln_customiser.js', 'sln_bar');
+                    }
+                    if (w.addEventListener) { w.addEventListener("load", go, false); }
+                    else if (w.attachEvent) { w.attachEvent("onload",go); }
+                } (window, document, 'script'));
+
+               (function () {
+                   var s = document.createElement('link');
+                   s.rel = 'stylesheet';
+                   s.href = 'https://connect.sensiolabs.com/css/sln.css';
+                   var x = document.getElementsByTagName('title')[0];
+                   x.parentNode.insertBefore(s, x);
+               })();
+           });
+       </script>
+
+        <script type="text/javascript" src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/ld.js" async="true"></script>
+<script type="text/javascript">
+    window.criteo_q = window.criteo_q || [];
+    window.criteo_q.push (
+        { event: "setAccount", account: 14086 },
+        { event: "viewHome"}
+    );
+</script>
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b10765e88c","applicationID":"3535762","transactionName":"ZVVSYEdRWkACVEJRC1wfcVdBWVtdTGRTVhdbX2NNWFZbXRpgU1oXW0RVdllfU3EWWVJUAQhyXFtSCllWDUI=","queueTime":0,"applicationTime":326,"atts":"SRJRFg9LSU4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div style="display: none;" id="criteo-tags-div"><iframe src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/dis.htm" style="display: none;" height="0" width="0"></iframe><script src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/event.js" type="text/javascript" async="true"></script><iframe src="Create%20your%20First%20Page%20in%20Symfony%20%28current%29_dosyalar/dis_002.htm" style="display: none;" height="0" width="0"></iframe></div></body></html>
