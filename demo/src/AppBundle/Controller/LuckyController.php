@@ -27,4 +27,21 @@ class LuckyController extends Controller {
 		return $this->render("lucky/number.html.twig",array("number"=> $number));
 	}
 
+	/**
+	 * @Route("/lucky/number.{_format}"
+		,defaults={"_format":"html"}
+		,requirements={
+		"_format"="html|rss"
+		}
+	 	)
+	 */
+	public function numberActionTwigHtml(){
+	
+		$number  = mt_rand(0,100);
+		 
+
+	//	return new Response("<html><body> Lucky number : $number </body></html>");
+		return $this->render("lucky/number.html.twig",array("number"=> $number." in format"));
+	}
+
 }
